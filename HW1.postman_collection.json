@@ -2,14 +2,39 @@
 	"info": {
 		"_postman_id": "862b33fd-e84b-4171-8c19-a45ba01415c1",
 		"name": "Homework1",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18867720"
 	},
 	"item": [
 		{
 			"name": "1",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/get_method?name=Sergey&age=36",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"get_method"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Sergey"
+						},
+						{
+							"key": "age",
+							"value": "36"
+						}
+					]
+				}
 			},
 			"response": []
 		},
